@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D4CFE02110B05D0099F919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4CFDF2110B05D0099F919 /* AppDelegate.swift */; };
+		18D4CFE22110B05D0099F919 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4CFE12110B05D0099F919 /* ViewController.swift */; };
+		18D4CFE52110B05D0099F919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D4CFE32110B05D0099F919 /* Main.storyboard */; };
+		18D4CFE72110B0600099F919 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D4CFE62110B0600099F919 /* Assets.xcassets */; };
+		18D4CFEA2110B0600099F919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D4CFE82110B0600099F919 /* LaunchScreen.storyboard */; };
+		18D4CFF52110B0600099F919 /* Owen_Moore___Bulb_StudiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4CFF42110B0600099F919 /* Owen_Moore___Bulb_StudiosTests.swift */; };
+		18D4D0002110B0600099F919 /* Owen_Moore___Bulb_StudiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4CFFF2110B0600099F919 /* Owen_Moore___Bulb_StudiosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18D4CFF12110B0600099F919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D4CFD42110B05D0099F919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D4CFDB2110B05D0099F919;
+			remoteInfo = "Owen Moore - Bulb Studios";
+		};
+		18D4CFFC2110B0600099F919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18D4CFD42110B05D0099F919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18D4CFDB2110B05D0099F919;
+			remoteInfo = "Owen Moore - Bulb Studios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18D4CFDC2110B05D0099F919 /* Owen Moore - Bulb Studios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Owen Moore - Bulb Studios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D4CFDF2110B05D0099F919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18D4CFE12110B05D0099F919 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18D4CFE42110B05D0099F919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D4CFE62110B0600099F919 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D4CFE92110B0600099F919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D4CFEB2110B0600099F919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D4CFF02110B0600099F919 /* Owen Moore - Bulb StudiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Owen Moore - Bulb StudiosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D4CFF42110B0600099F919 /* Owen_Moore___Bulb_StudiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Owen_Moore___Bulb_StudiosTests.swift"; sourceTree = "<group>"; };
+		18D4CFF62110B0600099F919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D4CFFB2110B0600099F919 /* Owen Moore - Bulb StudiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Owen Moore - Bulb StudiosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D4CFFF2110B0600099F919 /* Owen_Moore___Bulb_StudiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Owen_Moore___Bulb_StudiosUITests.swift"; sourceTree = "<group>"; };
+		18D4D0012110B0600099F919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D4CFD92110B05D0099F919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D4CFED2110B0600099F919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D4CFF82110B0600099F919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D4CFD32110B05D0099F919 = {
+			isa = PBXGroup;
+			children = (
+				18D4CFDE2110B05D0099F919 /* Owen Moore - Bulb Studios */,
+				18D4CFF32110B0600099F919 /* Owen Moore - Bulb StudiosTests */,
+				18D4CFFE2110B0600099F919 /* Owen Moore - Bulb StudiosUITests */,
+				18D4CFDD2110B05D0099F919 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D4CFDD2110B05D0099F919 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D4CFDC2110B05D0099F919 /* Owen Moore - Bulb Studios.app */,
+				18D4CFF02110B0600099F919 /* Owen Moore - Bulb StudiosTests.xctest */,
+				18D4CFFB2110B0600099F919 /* Owen Moore - Bulb StudiosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D4CFDE2110B05D0099F919 /* Owen Moore - Bulb Studios */ = {
+			isa = PBXGroup;
+			children = (
+				18D4CFDF2110B05D0099F919 /* AppDelegate.swift */,
+				18D4CFE12110B05D0099F919 /* ViewController.swift */,
+				18D4CFE32110B05D0099F919 /* Main.storyboard */,
+				18D4CFE62110B0600099F919 /* Assets.xcassets */,
+				18D4CFE82110B0600099F919 /* LaunchScreen.storyboard */,
+				18D4CFEB2110B0600099F919 /* Info.plist */,
+			);
+			path = "Owen Moore - Bulb Studios";
+			sourceTree = "<group>";
+		};
+		18D4CFF32110B0600099F919 /* Owen Moore - Bulb StudiosTests */ = {
+			isa = PBXGroup;
+			children = (
+				18D4CFF42110B0600099F919 /* Owen_Moore___Bulb_StudiosTests.swift */,
+				18D4CFF62110B0600099F919 /* Info.plist */,
+			);
+			path = "Owen Moore - Bulb StudiosTests";
+			sourceTree = "<group>";
+		};
+		18D4CFFE2110B0600099F919 /* Owen Moore - Bulb StudiosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18D4CFFF2110B0600099F919 /* Owen_Moore___Bulb_StudiosUITests.swift */,
+				18D4D0012110B0600099F919 /* Info.plist */,
+			);
+			path = "Owen Moore - Bulb StudiosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D4CFDB2110B05D0099F919 /* Owen Moore - Bulb Studios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D4D0042110B0600099F919 /* Build configuration list for PBXNativeTarget "Owen Moore - Bulb Studios" */;
+			buildPhases = (
+				18D4CFD82110B05D0099F919 /* Sources */,
+				18D4CFD92110B05D0099F919 /* Frameworks */,
+				18D4CFDA2110B05D0099F919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Owen Moore - Bulb Studios";
+			productName = "Owen Moore - Bulb Studios";
+			productReference = 18D4CFDC2110B05D0099F919 /* Owen Moore - Bulb Studios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18D4CFEF2110B0600099F919 /* Owen Moore - Bulb StudiosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D4D0072110B0600099F919 /* Build configuration list for PBXNativeTarget "Owen Moore - Bulb StudiosTests" */;
+			buildPhases = (
+				18D4CFEC2110B0600099F919 /* Sources */,
+				18D4CFED2110B0600099F919 /* Frameworks */,
+				18D4CFEE2110B0600099F919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D4CFF22110B0600099F919 /* PBXTargetDependency */,
+			);
+			name = "Owen Moore - Bulb StudiosTests";
+			productName = "Owen Moore - Bulb StudiosTests";
+			productReference = 18D4CFF02110B0600099F919 /* Owen Moore - Bulb StudiosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18D4CFFA2110B0600099F919 /* Owen Moore - Bulb StudiosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D4D00A2110B0600099F919 /* Build configuration list for PBXNativeTarget "Owen Moore - Bulb StudiosUITests" */;
+			buildPhases = (
+				18D4CFF72110B0600099F919 /* Sources */,
+				18D4CFF82110B0600099F919 /* Frameworks */,
+				18D4CFF92110B0600099F919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18D4CFFD2110B0600099F919 /* PBXTargetDependency */,
+			);
+			name = "Owen Moore - Bulb StudiosUITests";
+			productName = "Owen Moore - Bulb StudiosUITests";
+			productReference = 18D4CFFB2110B0600099F919 /* Owen Moore - Bulb StudiosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D4CFD42110B05D0099F919 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Owen Moore";
+				TargetAttributes = {
+					18D4CFDB2110B05D0099F919 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					18D4CFEF2110B0600099F919 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 18D4CFDB2110B05D0099F919;
+					};
+					18D4CFFA2110B0600099F919 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 18D4CFDB2110B05D0099F919;
+					};
+				};
+			};
+			buildConfigurationList = 18D4CFD72110B05D0099F919 /* Build configuration list for PBXProject "Owen Moore - Bulb Studios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D4CFD32110B05D0099F919;
+			productRefGroup = 18D4CFDD2110B05D0099F919 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D4CFDB2110B05D0099F919 /* Owen Moore - Bulb Studios */,
+				18D4CFEF2110B0600099F919 /* Owen Moore - Bulb StudiosTests */,
+				18D4CFFA2110B0600099F919 /* Owen Moore - Bulb StudiosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D4CFDA2110B05D0099F919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D4CFEA2110B0600099F919 /* LaunchScreen.storyboard in Resources */,
+				18D4CFE72110B0600099F919 /* Assets.xcassets in Resources */,
+				18D4CFE52110B05D0099F919 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D4CFEE2110B0600099F919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D4CFF92110B0600099F919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D4CFD82110B05D0099F919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D4CFE22110B05D0099F919 /* ViewController.swift in Sources */,
+				18D4CFE02110B05D0099F919 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D4CFEC2110B0600099F919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D4CFF52110B0600099F919 /* Owen_Moore___Bulb_StudiosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D4CFF72110B0600099F919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D4D0002110B0600099F919 /* Owen_Moore___Bulb_StudiosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18D4CFF22110B0600099F919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D4CFDB2110B05D0099F919 /* Owen Moore - Bulb Studios */;
+			targetProxy = 18D4CFF12110B0600099F919 /* PBXContainerItemProxy */;
+		};
+		18D4CFFD2110B0600099F919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18D4CFDB2110B05D0099F919 /* Owen Moore - Bulb Studios */;
+			targetProxy = 18D4CFFC2110B0600099F919 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18D4CFE32110B05D0099F919 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D4CFE42110B05D0099F919 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D4CFE82110B0600099F919 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D4CFE92110B0600099F919 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D4D0022110B0600099F919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18D4D0032110B0600099F919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D4D0052110B0600099F919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 543PV4P4A8;
+				INFOPLIST_FILE = "Owen Moore - Bulb Studios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developerowenmoore.Owen-Moore---Bulb-Studios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D4D0062110B0600099F919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 543PV4P4A8;
+				INFOPLIST_FILE = "Owen Moore - Bulb Studios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developerowenmoore.Owen-Moore---Bulb-Studios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18D4D0082110B0600099F919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 543PV4P4A8;
+				INFOPLIST_FILE = "Owen Moore - Bulb StudiosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developerowenmoore.Owen-Moore---Bulb-StudiosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Owen Moore - Bulb Studios.app/Owen Moore - Bulb Studios";
+			};
+			name = Debug;
+		};
+		18D4D0092110B0600099F919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 543PV4P4A8;
+				INFOPLIST_FILE = "Owen Moore - Bulb StudiosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developerowenmoore.Owen-Moore---Bulb-StudiosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Owen Moore - Bulb Studios.app/Owen Moore - Bulb Studios";
+			};
+			name = Release;
+		};
+		18D4D00B2110B0600099F919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 543PV4P4A8;
+				INFOPLIST_FILE = "Owen Moore - Bulb StudiosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developerowenmoore.Owen-Moore---Bulb-StudiosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Owen Moore - Bulb Studios";
+			};
+			name = Debug;
+		};
+		18D4D00C2110B0600099F919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 543PV4P4A8;
+				INFOPLIST_FILE = "Owen Moore - Bulb StudiosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.developerowenmoore.Owen-Moore---Bulb-StudiosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Owen Moore - Bulb Studios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D4CFD72110B05D0099F919 /* Build configuration list for PBXProject "Owen Moore - Bulb Studios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D4D0022110B0600099F919 /* Debug */,
+				18D4D0032110B0600099F919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D4D0042110B0600099F919 /* Build configuration list for PBXNativeTarget "Owen Moore - Bulb Studios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D4D0052110B0600099F919 /* Debug */,
+				18D4D0062110B0600099F919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D4D0072110B0600099F919 /* Build configuration list for PBXNativeTarget "Owen Moore - Bulb StudiosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D4D0082110B0600099F919 /* Debug */,
+				18D4D0092110B0600099F919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D4D00A2110B0600099F919 /* Build configuration list for PBXNativeTarget "Owen Moore - Bulb StudiosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D4D00B2110B0600099F919 /* Debug */,
+				18D4D00C2110B0600099F919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D4CFD42110B05D0099F919 /* Project object */;
+}
