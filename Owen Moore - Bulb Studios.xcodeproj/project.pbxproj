@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01C0ABC5D63D2DFBF95BEDAA /* Pods_Owen_Moore___Bulb_StudiosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E81C08D65EC5B60973065B /* Pods_Owen_Moore___Bulb_StudiosTests.framework */; };
+		09A9B20B0E19867C88514625 /* Pods_Owen_Moore___Bulb_StudiosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17CF4028F8461CDFA25500A8 /* Pods_Owen_Moore___Bulb_StudiosUITests.framework */; };
 		18D4CFE02110B05D0099F919 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4CFDF2110B05D0099F919 /* AppDelegate.swift */; };
 		18D4CFE22110B05D0099F919 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4CFE12110B05D0099F919 /* ViewController.swift */; };
 		18D4CFE52110B05D0099F919 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D4CFE32110B05D0099F919 /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		18D4CFEA2110B0600099F919 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D4CFE82110B0600099F919 /* LaunchScreen.storyboard */; };
 		18D4CFF52110B0600099F919 /* Owen_Moore___Bulb_StudiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4CFF42110B0600099F919 /* Owen_Moore___Bulb_StudiosTests.swift */; };
 		18D4D0002110B0600099F919 /* Owen_Moore___Bulb_StudiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4CFFF2110B0600099F919 /* Owen_Moore___Bulb_StudiosUITests.swift */; };
+		18D4D0122110B5420099F919 /* ShoppingItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D0112110B5420099F919 /* ShoppingItemsTableViewCell.swift */; };
+		18D4D0142110B60D0099F919 /* ShoppingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D0132110B60D0099F919 /* ShoppingData.swift */; };
+		7542A55B4100862430B10477 /* Pods_Owen_Moore___Bulb_Studios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FFF4E13E94EE6F4FA28AE91 /* Pods_Owen_Moore___Bulb_Studios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17CF4028F8461CDFA25500A8 /* Pods_Owen_Moore___Bulb_StudiosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Owen_Moore___Bulb_StudiosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D4CFDC2110B05D0099F919 /* Owen Moore - Bulb Studios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Owen Moore - Bulb Studios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D4CFDF2110B05D0099F919 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D4CFE12110B05D0099F919 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,11 +48,21 @@
 		18D4CFE92110B0600099F919 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18D4CFEB2110B0600099F919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D4CFF02110B0600099F919 /* Owen Moore - Bulb StudiosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Owen Moore - Bulb StudiosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		18D4CFF42110B0600099F919 /* Owen_Moore___Bulb_StudiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Owen_Moore___Bulb_StudiosTests.swift"; sourceTree = "<group>"; };
+		18D4CFF42110B0600099F919 /* Owen_Moore___Bulb_StudiosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owen_Moore___Bulb_StudiosTests.swift; sourceTree = "<group>"; };
 		18D4CFF62110B0600099F919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18D4CFFB2110B0600099F919 /* Owen Moore - Bulb StudiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Owen Moore - Bulb StudiosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		18D4CFFF2110B0600099F919 /* Owen_Moore___Bulb_StudiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Owen_Moore___Bulb_StudiosUITests.swift"; sourceTree = "<group>"; };
+		18D4CFFF2110B0600099F919 /* Owen_Moore___Bulb_StudiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Owen_Moore___Bulb_StudiosUITests.swift; sourceTree = "<group>"; };
 		18D4D0012110B0600099F919 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D4D0112110B5420099F919 /* ShoppingItemsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItemsTableViewCell.swift; sourceTree = "<group>"; };
+		18D4D0132110B60D0099F919 /* ShoppingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingData.swift; sourceTree = "<group>"; };
+		2FFF4E13E94EE6F4FA28AE91 /* Pods_Owen_Moore___Bulb_Studios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Owen_Moore___Bulb_Studios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B16B6140BFD01658EBE9AB /* Pods-Owen Moore - Bulb StudiosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owen Moore - Bulb StudiosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Owen Moore - Bulb StudiosUITests/Pods-Owen Moore - Bulb StudiosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		59EB679C46DBC6D80EB5AA25 /* Pods-Owen Moore - Bulb StudiosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owen Moore - Bulb StudiosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Owen Moore - Bulb StudiosUITests/Pods-Owen Moore - Bulb StudiosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		69654741BDC7ACED166DBFC1 /* Pods-Owen Moore - Bulb StudiosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owen Moore - Bulb StudiosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Owen Moore - Bulb StudiosTests/Pods-Owen Moore - Bulb StudiosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B301145C79A71C0C1FC982E9 /* Pods-Owen Moore - Bulb StudiosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owen Moore - Bulb StudiosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Owen Moore - Bulb StudiosTests/Pods-Owen Moore - Bulb StudiosTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3ADF2815773A74D2AE6AAD6 /* Pods-Owen Moore - Bulb Studios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owen Moore - Bulb Studios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Owen Moore - Bulb Studios/Pods-Owen Moore - Bulb Studios.debug.xcconfig"; sourceTree = "<group>"; };
+		CA8E5344F714806664921EBD /* Pods-Owen Moore - Bulb Studios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Owen Moore - Bulb Studios.release.xcconfig"; path = "Pods/Target Support Files/Pods-Owen Moore - Bulb Studios/Pods-Owen Moore - Bulb Studios.release.xcconfig"; sourceTree = "<group>"; };
+		F4E81C08D65EC5B60973065B /* Pods_Owen_Moore___Bulb_StudiosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Owen_Moore___Bulb_StudiosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7542A55B4100862430B10477 /* Pods_Owen_Moore___Bulb_Studios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C0ABC5D63D2DFBF95BEDAA /* Pods_Owen_Moore___Bulb_StudiosTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09A9B20B0E19867C88514625 /* Pods_Owen_Moore___Bulb_StudiosUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				18D4CFF32110B0600099F919 /* Owen Moore - Bulb StudiosTests */,
 				18D4CFFE2110B0600099F919 /* Owen Moore - Bulb StudiosUITests */,
 				18D4CFDD2110B05D0099F919 /* Products */,
+				E866179BCEE7DE8205099A6A /* Pods */,
+				EFCFD4EE7B3414DC7153EFA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,7 +119,9 @@
 			isa = PBXGroup;
 			children = (
 				18D4CFDF2110B05D0099F919 /* AppDelegate.swift */,
-				18D4CFE12110B05D0099F919 /* ViewController.swift */,
+				18D4D00E2110B1C90099F919 /* Model */,
+				18D4D00F2110B1E20099F919 /* View */,
+				18D4D00D2110B1B50099F919 /* Controller */,
 				18D4CFE32110B05D0099F919 /* Main.storyboard */,
 				18D4CFE62110B0600099F919 /* Assets.xcassets */,
 				18D4CFE82110B0600099F919 /* LaunchScreen.storyboard */,
@@ -125,6 +148,53 @@
 			path = "Owen Moore - Bulb StudiosUITests";
 			sourceTree = "<group>";
 		};
+		18D4D00D2110B1B50099F919 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18D4CFE12110B05D0099F919 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18D4D00E2110B1C90099F919 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18D4D0132110B60D0099F919 /* ShoppingData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18D4D00F2110B1E20099F919 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18D4D0112110B5420099F919 /* ShoppingItemsTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E866179BCEE7DE8205099A6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3ADF2815773A74D2AE6AAD6 /* Pods-Owen Moore - Bulb Studios.debug.xcconfig */,
+				CA8E5344F714806664921EBD /* Pods-Owen Moore - Bulb Studios.release.xcconfig */,
+				69654741BDC7ACED166DBFC1 /* Pods-Owen Moore - Bulb StudiosTests.debug.xcconfig */,
+				B301145C79A71C0C1FC982E9 /* Pods-Owen Moore - Bulb StudiosTests.release.xcconfig */,
+				59EB679C46DBC6D80EB5AA25 /* Pods-Owen Moore - Bulb StudiosUITests.debug.xcconfig */,
+				40B16B6140BFD01658EBE9AB /* Pods-Owen Moore - Bulb StudiosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFCFD4EE7B3414DC7153EFA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FFF4E13E94EE6F4FA28AE91 /* Pods_Owen_Moore___Bulb_Studios.framework */,
+				F4E81C08D65EC5B60973065B /* Pods_Owen_Moore___Bulb_StudiosTests.framework */,
+				17CF4028F8461CDFA25500A8 /* Pods_Owen_Moore___Bulb_StudiosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D4D0042110B0600099F919 /* Build configuration list for PBXNativeTarget "Owen Moore - Bulb Studios" */;
 			buildPhases = (
+				1F704A33F9A5C2840A5E708F /* [CP] Check Pods Manifest.lock */,
 				18D4CFD82110B05D0099F919 /* Sources */,
 				18D4CFD92110B05D0099F919 /* Frameworks */,
 				18D4CFDA2110B05D0099F919 /* Resources */,
+				70383E95E3D74BA40D212E81 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D4D0072110B0600099F919 /* Build configuration list for PBXNativeTarget "Owen Moore - Bulb StudiosTests" */;
 			buildPhases = (
+				315A4C6B6CFBFDE31AAA1294 /* [CP] Check Pods Manifest.lock */,
 				18D4CFEC2110B0600099F919 /* Sources */,
 				18D4CFED2110B0600099F919 /* Frameworks */,
 				18D4CFEE2110B0600099F919 /* Resources */,
@@ -167,6 +240,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D4D00A2110B0600099F919 /* Build configuration list for PBXNativeTarget "Owen Moore - Bulb StudiosUITests" */;
 			buildPhases = (
+				348D6960093D2C13FF212BDB /* [CP] Check Pods Manifest.lock */,
 				18D4CFF72110B0600099F919 /* Sources */,
 				18D4CFF82110B0600099F919 /* Frameworks */,
 				18D4CFF92110B0600099F919 /* Resources */,
@@ -251,13 +325,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F704A33F9A5C2840A5E708F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Owen Moore - Bulb Studios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		315A4C6B6CFBFDE31AAA1294 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Owen Moore - Bulb StudiosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		348D6960093D2C13FF212BDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Owen Moore - Bulb StudiosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70383E95E3D74BA40D212E81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Owen Moore - Bulb Studios/Pods-Owen Moore - Bulb Studios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Disk/Disk.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Disk.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Owen Moore - Bulb Studios/Pods-Owen Moore - Bulb Studios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18D4CFD82110B05D0099F919 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				18D4CFE22110B05D0099F919 /* ViewController.swift in Sources */,
+				18D4D0122110B5420099F919 /* ShoppingItemsTableViewCell.swift in Sources */,
 				18D4CFE02110B05D0099F919 /* AppDelegate.swift in Sources */,
+				18D4D0142110B60D0099F919 /* ShoppingData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +579,7 @@
 		};
 		18D4D0052110B0600099F919 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3ADF2815773A74D2AE6AAD6 /* Pods-Owen Moore - Bulb Studios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +598,7 @@
 		};
 		18D4D0062110B0600099F919 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA8E5344F714806664921EBD /* Pods-Owen Moore - Bulb Studios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +617,7 @@
 		};
 		18D4D0082110B0600099F919 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69654741BDC7ACED166DBFC1 /* Pods-Owen Moore - Bulb StudiosTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +639,7 @@
 		};
 		18D4D0092110B0600099F919 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B301145C79A71C0C1FC982E9 /* Pods-Owen Moore - Bulb StudiosTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +661,7 @@
 		};
 		18D4D00B2110B0600099F919 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59EB679C46DBC6D80EB5AA25 /* Pods-Owen Moore - Bulb StudiosUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +682,7 @@
 		};
 		18D4D00C2110B0600099F919 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B16B6140BFD01658EBE9AB /* Pods-Owen Moore - Bulb StudiosUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

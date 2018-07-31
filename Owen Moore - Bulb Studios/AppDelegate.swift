@@ -7,15 +7,35 @@
 //
 
 import UIKit
+import Disk
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let previouslyLaunched = UserDefaults.standard.bool(forKey: "launch")
+        if previouslyLaunched  {
+            print("Previously launch")
+        } else {
+            print("First launch")
+            UserDefaults.standard.set(true, forKey: "launch")
+            
+            // Displays a how to use on initial statup.
+            
+            let createItems = ShoppingItems(item: "Tap add new item to create new items")
+            items.append(createItems)
+            let modifyItems = ShoppingItems(item: "Swipe left to delete items")
+            items.append(modifyItems)
+            let markItems = ShoppingItems(item: "Tap on items to mark the item")
+            items.append(markItems)
+            
+            // Saves the array of items to the device memory.
+            try! Disk.save(items, to: .caches, as: "items")
+        }
+        
         return true
     }
 
@@ -36,11 +56,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
     }
-
+    
     func applicationWillTerminate(_ application: UIApplication) {
-        // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+        // Saves the array of items to the device memory.
+        try! Disk.save(items, to: .caches, as: "items")
     }
-
-
 }
 

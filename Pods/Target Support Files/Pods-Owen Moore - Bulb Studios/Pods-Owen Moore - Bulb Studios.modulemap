@@ -1,0 +1,6 @@
+framework module Pods_Owen_Moore___Bulb_Studios {
+  umbrella header "Pods-Owen Moore - Bulb Studios-umbrella.h"
+
+  export *
+  module * { export * }
+}
